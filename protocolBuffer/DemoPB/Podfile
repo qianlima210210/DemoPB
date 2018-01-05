@@ -1,0 +1,12 @@
+
+platform :ios, ‘9.0’
+
+target ‘DemoPB’ do
+use_frameworks!
+
+
+pod 'SwiftProtobuf', git: 'https://github.com/apple/swift-protobuf.git', :tag => '1.0.2'
+  
+
+
+end
